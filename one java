@@ -1,0 +1,12 @@
+import java.util.Scanner;
+import java.util.Arrays;
+public class ArrayHomework{
+	public static void main(String[] args){
+		String foo="bule";
+		boolean[] bar=new boolean[2];//boolean默认为flase
+		if(bar[0]){
+			foo="green";
+		}
+		System.out.print(foo);
+	}
+}
